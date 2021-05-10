@@ -1,14 +1,13 @@
 .contacts {
-    position: absolute;
     font-style: normal;
     text-align: right;
-    right: 0;
-    top: 43px;
 }
 
 .contacts__phone {
     text-decoration: none;
     font-size: 26px;
+    display: block;
+    line-height: 1;
 }
 
 .contacts__phone:hover {
@@ -17,6 +16,15 @@
 
 .contacts__schedule {
     font-size: 13px;
+    line-height: 1;
+    margin-top: 4px;
     text-decoration: underline;
     color: #ff3d00;
+}
+
+.contacts__free-call {
+    font-style: normal;
+    text-align: right;
+    font-size: 11px;
+    margin-bottom: 8px;
 }

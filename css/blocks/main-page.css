@@ -1,0 +1,10 @@
+.main-page {
+    background: url(../../img/hero.jpg) top center no-repeat;
+}
+
+.main-page__footer-container {
+    border-top: 1px solid #233032;
+    padding-top: 30px;
+    padding-bottom: 34px;
+}
+

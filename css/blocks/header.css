@@ -1,5 +1,5 @@
 .header__container {
-    padding-top: 32px;
+    padding-top: 20px;
     margin-bottom: 158px;
     display: flex;
     justify-content: space-between;
@@ -11,13 +11,7 @@
     justify-content: space-between;
 }
 
-.header__menu {
-    top: 54px;
-    left: 445px;
+.header__contacts {
+    padding-top: 8px;
 }
 
-.header__logo {
-    margin-right: 240px;
-    position: absolute;
-    top: 30px;
-}

@@ -53,7 +53,7 @@
 .page-content {
     background: #fff;
     color: #303030;
-    padding: 40px 0;
+    padding: 68px 0;
 }
 
 .service {
@@ -73,7 +73,7 @@
 .service__title {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 36px;
     color: #202123;
 }
 
@@ -101,15 +101,15 @@
 }
 
 .partners {
-    background: #d2d2d2;
+    background: #f4f5f5;
     color: #202123;
-    padding: 95px 0;
+    padding: 77px 0;
 }
 
 .partners__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 77px;
 }
 
 .partners__list {
@@ -119,17 +119,18 @@
 
 .partners__link {
     text-decoration: none;
-    display: flex;
-    width: 270px;
+    display: flex;    
     height: 100px;
     align-items: center;
+    max-width: 210px;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
-.partners__link:nth-child(4n + 1) {
+.partners__item:nth-child(4n + 1) {
     margin-left: 0;
 }
 
 .partners__item {
-    margin-left: 15px;
+    width: 25%;
 }

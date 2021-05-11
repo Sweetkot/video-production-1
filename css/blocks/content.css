@@ -129,9 +129,7 @@
 }
 .news__items {
     width: 555px;
-    height: 394px;
-    display: inline-block;
-    vertical-align: top;
+    min-height: 394px;
     position: relative;
     border-radius: 4px;
     margin-right: 12px;

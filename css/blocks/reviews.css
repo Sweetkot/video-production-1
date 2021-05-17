@@ -26,8 +26,15 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #4d76a1;
+    color: #202123;
+    text-decoration: none;
     margin-bottom: 11px;
+    margin-left: 22px;
+}
+
+.review__user:hover {
+    color: #2e77a4;
+    text-decoration: underline;
 }
 
 .review__user:after {
@@ -53,6 +60,7 @@
     color: #333;
     padding: 8px 16px;
     border-radius: 50px;
+    margin-left: 22px;
     background: #e6e6e6;
 }
 
@@ -206,6 +214,9 @@
 } 
 
 .form__button {
+    width: 168px;
+    height: 55px;
+    padding: 18px 41px;
     margin-right: 20px;
 }
 

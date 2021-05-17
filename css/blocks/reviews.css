@@ -1,0 +1,220 @@
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+
+.reviews__item {
+    margin-bottom: 20px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #f4f5f5;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d76a1;
+    margin-bottom: 11px;
+}
+
+.review__user:after {
+    content: url("../../img/vk-blue.png");
+    height: 33px;
+    margin-left: 10px;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: #e6e6e6;
+}
+
+.tag--bg--pink {
+    background: #f2d4c9;
+}
+
+.review__title {
+    font-size: 30px;
+    color: #202123;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.review__content-text {
+    margin-bottom: 50px;
+    font-size: 16px;
+    color:  #818181;
+}
+
+.review__date {
+    font-size: 14px;
+    color: #202123;
+    font-weight: bold;
+}
+
+.separator {
+    background: #373737 url('../../img/party.png') right bottom no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.separator__content {
+    max-width: 50%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.separator__title__special-text {
+    color: #ff3d00;
+}
+
+.inner-section--bg--grey {
+    background: #f4f5f5
+}
+
+.inner-section__title {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #202020;
+    margin-top: 79px;
+    margin-bottom: 56px;
+}
+
+.form__row {
+    display:flex;
+    margin-bottom: 30px;
+
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 18px 30px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #202123;
+}
+
+.form__input:focus {
+    outline: none;
+    border: 1px solid #ff3d00;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input--textarea {
+    height: 235px;
+    resize: none;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.form__controls-title {
+    width: 40%;
+    color:#202123;
+    font-size: 18px;
+    margin-right: -11px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #f2d4c9;
+}
+
+.controls__checkbox {
+    display: none;
+    background: #e7e7e7;
+}
+
+.button--color--red {
+    background: #ff5500;
+    color: #fff;
+}
+
+.button--color--red:hover {
+    background: #ff3d00;
+}
+
+.button--color--grey {
+    background: #8e8e8e;
+    color: #fff;
+}
+
+.button--color--grey:hover {
+    background: #2b2b2b;
+} 
+
+.form__button {
+    margin-right: 20px;
+}
+
+.form__button:last-child {
+    margin-right: 0;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 96px;
+}

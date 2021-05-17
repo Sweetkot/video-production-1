@@ -14,5 +14,6 @@
 }
 
 .menu__link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #ff3d00;
 }

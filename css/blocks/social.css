@@ -8,9 +8,49 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 4px;
+    width: 36px;
+    height: 36px;
+    background: url("../../img/css_sprites.png") no-repeat
 }
 
 .social-menu__item:last-child {
     margin-right: 0;
 }
 
+.social-menu__icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+li:nth-child(1) {
+    background-position: -122px -10px;
+}
+
+li:nth-child(1):hover {
+    background-position: -122px -66px;
+}
+
+li:nth-child(2) {
+    background-position: -10px -122px;
+}
+
+li:nth-child(2):hover {
+    background-position: -66px -122px;
+}
+
+li:nth-child(3) {
+    background-position: -10px -10px;
+}
+
+li:nth-child(3):hover {
+    background-position: -66px -10px;
+}
+
+li:nth-child(4) {
+    background-position: -10px -66px;
+}
+
+li:nth-child(4):hover {
+    background-position: -66px -66px;
+}

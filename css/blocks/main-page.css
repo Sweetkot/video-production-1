@@ -2,6 +2,10 @@
     background: url(../../img/hero.jpg) top center no-repeat;
 }
 
+.main-page__header {
+    margin-bottom: 152px;
+}
+
 .main-page__footer-container {
     border-top: 1px solid #233032;
     padding-top: 52px;

@@ -11,7 +11,7 @@
 .review {
     display: inline-flex;
     flex-direction: column;
-    padding: 50px 30px;
+    padding: 52px 30px;
     background: #f4f5f5;
 }
 
@@ -29,7 +29,6 @@
     color: #202123;
     text-decoration: none;
     margin-bottom: 11px;
-    margin-left: 22px;
 }
 
 .review__user:hover {
@@ -41,6 +40,10 @@
     content: url("../../img/vk-blue.png");
     height: 33px;
     margin-left: 10px;
+}
+
+.review__photo {
+    margin-right: 20px;
 }
 
 .avatar {
@@ -60,7 +63,6 @@
     color: #333;
     padding: 8px 16px;
     border-radius: 50px;
-    margin-left: 22px;
     background: #e6e6e6;
 }
 
@@ -79,6 +81,7 @@
     margin-bottom: 50px;
     font-size: 16px;
     color:  #818181;
+    line-height: 1.5;
 }
 
 .review__date {
@@ -168,7 +171,7 @@
     width: 40%;
     color:#202123;
     font-size: 18px;
-    margin-right: -11px;
+    margin-right: -12px;
 }
 
 .controls {
@@ -202,6 +205,7 @@
 
 .button--color--red:hover {
     background: #ff3d00;
+    transition-delay: .1s;
 }
 
 .button--color--grey {
@@ -211,6 +215,7 @@
 
 .button--color--grey:hover {
     background: #2b2b2b;
+    transition-delay: .1s;
 } 
 
 .form__button {
@@ -227,5 +232,5 @@
 .form__buttons {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 96px;
+    margin-bottom: 77px;
 }

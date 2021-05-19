@@ -10,7 +10,7 @@
     margin-right: 4px;
     width: 36px;
     height: 36px;
-    background: url("../../img/css_sprites.png") no-repeat
+    background: url("../../sprite/css_sprites.png") no-repeat
 }
 
 .social-menu__item:last-child {
@@ -23,34 +23,34 @@
     height: 36px;
 }
 
-li:nth-child(1) {
-    background-position: -122px -10px;
-}
-
-li:nth-child(1):hover {
-    background-position: -122px -66px;
-}
-
-li:nth-child(2) {
+.social-menu__item-telegram {
     background-position: -10px -122px;
 }
 
-li:nth-child(2):hover {
+.social-menu__item-telegram:hover {
+    background-position: -122px -66px;
+}
+
+.social-menu__item-vk {
+    background-position: -122px -10px;
+}
+
+.social-menu__item-vk:hover {
+    background-position: -66px -66px;
+}
+
+.social-menu__item-facebook {
     background-position: -66px -122px;
 }
 
-li:nth-child(3) {
+.social-menu__item-facebook:hover {
     background-position: -10px -10px;
 }
 
-li:nth-child(3):hover {
-    background-position: -66px -10px;
-}
-
-li:nth-child(4) {
+.social-menu__item-instagram {
     background-position: -10px -66px;
 }
 
-li:nth-child(4):hover {
-    background-position: -66px -66px;
+.social-menu__item-instagram:hover {
+    background-position: -66px -10px;
 }

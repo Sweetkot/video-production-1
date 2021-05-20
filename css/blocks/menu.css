@@ -18,3 +18,7 @@
     text-decoration: none;
     color: #ff3d00;
 }
+
+.menu__list {
+    display: flex;
+}

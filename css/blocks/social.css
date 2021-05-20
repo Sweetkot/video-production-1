@@ -4,6 +4,10 @@
     margin-right: 15px;
 }
 
+.social-menu__list {
+    display: flex;
+}
+
 .social-menu__item {
     display: inline-block;
     vertical-align: middle;
@@ -19,6 +23,8 @@
 
 .social-menu__link {
     text-decoration: none;
+    display: block;
+    height: 100%;
 }
 
 .social-menu__icon {

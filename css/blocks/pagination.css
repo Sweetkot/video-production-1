@@ -1,6 +1,6 @@
 .pagination {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 67px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +12,8 @@
 }
 
 .pagination__info {
-    margin-right: 30px;
-    margin-left: 48px;
+    margin-right: 27px;
+    margin-left: 56px;
 }
 
 .pagination__item {

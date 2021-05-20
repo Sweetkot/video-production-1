@@ -1,7 +1,6 @@
 .reviews {
     column-count: 2;
     column-gap: 30px;
-    margin-bottom: 70px;
 }
 
 .reviews__item {
@@ -11,7 +10,7 @@
 .review {
     display: inline-flex;
     flex-direction: column;
-    padding: 52px 30px;
+    padding: 45px 30px 47px;
     background: #f4f5f5;
 }
 
@@ -29,6 +28,7 @@
     color: #202123;
     text-decoration: none;
     margin-bottom: 11px;
+    transition: color 0.3s;
 }
 
 .review__user:hover {
@@ -106,7 +106,7 @@
 .separator__title {
     font-size: 48px;
     font-weight: bold;
-    line-height: 1.1;
+    line-height: 1.4;
 }
 
 .separator__title__special-text {
@@ -201,21 +201,21 @@
 .button--color--red {
     background: #ff5500;
     color: #fff;
+    transition: color 0.3s;
 }
 
 .button--color--red:hover {
     background: #ff3d00;
-    transition-delay: .1s;
 }
 
 .button--color--grey {
     background: #8e8e8e;
     color: #fff;
+    transition: color 0.3s;
 }
 
 .button--color--grey:hover {
     background: #2b2b2b;
-    transition-delay: .1s;
 } 
 
 .form__button {

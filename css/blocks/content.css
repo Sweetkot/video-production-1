@@ -42,7 +42,7 @@
     display: inline-block;
     vertical-align: middle;
     border-radius: 5px;
-    padding: 43px 21px;
+    padding: 35px 21px;
 }
 
 .offer__content {
@@ -81,7 +81,7 @@
 .offer__features {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
 }
 
 .offer__feature {
@@ -103,7 +103,7 @@
 .offer__details {
     font-weight: 400;
     font-size: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 27px;
 }
 
 .offer__button {
@@ -117,6 +117,7 @@
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .offer__button:hover {
@@ -191,7 +192,7 @@
     vertical-align: top;
     width: 780px;
     margin-left: -142px;
-    margin-top: 97px;
+    margin-top: 79px;
     border-radius: 5px;
 }
 

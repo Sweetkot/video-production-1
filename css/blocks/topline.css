@@ -102,7 +102,7 @@
     text-transform: uppercase;
     font-weight: 600;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s, background 0.3;
 }
 
 .service__button:hover {
